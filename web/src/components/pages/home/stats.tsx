@@ -79,7 +79,7 @@ export namespace ClipsStats {
     const minutes = Math.floor(totalSeconds / 60) % 60;
     const hours = Math.floor(totalSeconds / 3600);
 
-    if (hours >= 1000) {
+    if (hours >= 10000) {
       return (hours / 1000).toPrecision(2) + 'k';
     }
 
