@@ -234,6 +234,10 @@
         height: 100%;
         margin-top: 30px;
 
+        @media (--lg-down) {
+            max-width: 100%;
+        }
+
         @media (--md-up) {
             margin-top: 0;
             width: 100%;
@@ -301,6 +305,10 @@
                 width: max-content;
                 flex-direction: column;
                 justify-content: flex-start;
+            }
+
+            @media (--lg-down) {
+                margin-inline-start: 0;
             }
         }
 
